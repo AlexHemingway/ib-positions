@@ -6,3 +6,5 @@ venv/
 .ipynb_checkpoints/
 data/
 .vscode/
+*.pyc
+*.parquet

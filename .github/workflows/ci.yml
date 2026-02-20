@@ -30,7 +30,4 @@ jobs:
         run: uv install
 
       - name: Run tests
-        run: uv run pytest -q
-
-      - name: Run tests with coverage
-        run: uv run pytest --cov=ib_positions
+        run: uv run pytest --cov=ib_positions --cov-report=term-missing

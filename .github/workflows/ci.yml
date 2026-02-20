@@ -26,8 +26,8 @@ jobs:
       - name: Install uv
         run: pip install uv
 
-      - name: Install dependencies
-        run: uv install
+      - name: Sync dependencies
+        run: uv sync
 
       - name: Run tests
         run: uv run pytest --cov=ib_positions --cov-report=term-missing

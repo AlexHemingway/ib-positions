@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from src.ib_positions.client import IBDataFetcher
+from ib_positions.client import IBDataFetcher
 
 
 class DummyContract:
